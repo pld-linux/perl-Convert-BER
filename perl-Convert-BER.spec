@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	BER
+%define		pdir	Convert
+%define		pnam	BER
 Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
 Summary(pl):	Modu³ Perla Convert::BER - podstawowe regu³y kodowania ASN.1
 Name:		perl-Convert-BER
