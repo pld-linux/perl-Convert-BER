@@ -9,7 +9,7 @@ Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
 Summary(pl):	Modu³ Perla Convert::BER - podstawowe regu³y kodowania ASN.1
 Name:		perl-Convert-BER
 Version:	1.3101
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
