@@ -1,12 +1,11 @@
-%define	pdir	Convert
-%define	pnam	BER
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	Convert
+%define		pnam	BER
 Summary:	Convert-BER perl module
 Summary(pl):	Modu³ perla Convert-BER
 Name:		perl-Convert-BER
 Version:	1.31
 Release:	5
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ Convert-BER udostêpnia obiektowy interfejs kodowania i dekodowania
 danych przy wykorzystaniu BER (ASN.1 Basic Encoding Rules).
 
 %prep
-%setup -q -n Convert-BER-%{version}
+%setup -q -n {pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
