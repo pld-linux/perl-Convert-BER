@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Convert
 %define		pnam	BER
-Summary:	Convert-BER perl module
-Summary(pl):	Modu³ perla Convert-BER
+Summary:	Convert::BER perl module
+Summary(pl):	Modu³ perla Convert::BER
 Name:		perl-Convert-BER
 Version:	1.31
 Release:	5
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-BER provides an OO interface to encoding and decoding data
+Convert::BER provides an OO interface to encoding and decoding data
 into packets using the ASN.1 Basic Encoding Rules (BER)
 
 %description -l pl
-Convert-BER udostêpnia obiektowy interfejs kodowania i dekodowania
+Convert::BER udostêpnia obiektowy interfejs kodowania i dekodowania
 danych przy wykorzystaniu BER (ASN.1 Basic Encoding Rules).
 
 %prep
