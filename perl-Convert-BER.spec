@@ -3,7 +3,7 @@ Summary:	Convert-BER perl module
 Summary(pl):	Modu³ perla Convert-BER
 Name:		perl-Convert-BER
 Version:	1.31
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
