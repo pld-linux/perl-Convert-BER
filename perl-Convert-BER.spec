@@ -31,7 +31,7 @@ danych przy wykorzystaniu BER (ASN.1 Basic Encoding Rules).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
