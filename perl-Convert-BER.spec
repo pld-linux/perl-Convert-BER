@@ -13,7 +13,7 @@ BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Math-BigInteger
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Convert-BER provides an OO interface to encoding and decoding data into 
