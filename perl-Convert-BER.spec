@@ -1,9 +1,12 @@
+%define	pdir	Convert
+%define	pnam	BER
 %include	/usr/lib/rpm/macros.perl
 Summary:	Convert-BER perl module
 Summary(pl):	Modu³ perla Convert-BER
 Name:		perl-Convert-BER
 Version:	1.31
-Release:	4
+Release:	5
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-BER-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Math-BigInteger
