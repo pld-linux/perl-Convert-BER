@@ -24,7 +24,7 @@ Convert-BER udostêpnia obiektowy interfejs kodowania i dekodowania
 danych przy wykorzystaniu BER (ASN.1 Basic Encoding Rules).
 
 %prep
-%setup -q -n {pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
