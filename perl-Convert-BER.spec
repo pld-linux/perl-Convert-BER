@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Convert
 %define		pnam	BER
-Summary:	Convert::BER perl module
-Summary(pl):	Modu³ perla Convert::BER
+Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
+Summary(pl):	Modu³ Perla Convert::BER - podstawowe regu³y kodowania ASN.1
 Name:		perl-Convert-BER
 Version:	1.3101
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	00fd5e5a98d4194da0e980186cba6292
@@ -19,12 +20,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert::BER provides an OO interface to encoding and decoding data
-into packets using the ASN.1 Basic Encoding Rules (BER)
+Convert::BER provides an object oriented interface to encoding and
+decoding data into packets using the ASN.1 Basic Encoding Rules (BER)
 
 %description -l pl
 Convert::BER udostêpnia obiektowy interfejs kodowania i dekodowania
-danych przy wykorzystaniu BER (ASN.1 Basic Encoding Rules).
+danych przy wykorzystaniu ASN.1 BER (podstawowych regu³ kodowania -
+Basic Encoding Rules).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
