@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert-BER perl module
 Summary(pl):	Modu³ perla Convert-BER
 Name:		perl-Convert-BER
@@ -8,7 +8,9 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-BER-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
+BuildRequires:	perl >= 5.005_03-12
+BuildRequires:	perl-Math-BigInteger
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
