@@ -3,14 +3,14 @@ Summary:	Convert-BER perl module
 Summary(pl):	Modu³ perla Convert-BER
 Name:		perl-Convert-BER
 Version:	1.31
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-BER-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Math-BigInteger
 %requires_eq	perl
 Requires:	%{perl_sitearch}
@@ -45,5 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Convert/BER.pm
-%{perl_sitearch}/auto/Convert/BER
 %{_mandir}/man3/*
