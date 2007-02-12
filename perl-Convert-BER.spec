@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	BER
 Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
-Summary(pl):	Modu≥ Perla Convert::BER - podstawowe regu≥y kodowania ASN.1
+Summary(pl.UTF-8):   Modu≈Ç Perla Convert::BER - podstawowe regu≈Çy kodowania ASN.1
 Name:		perl-Convert-BER
 Version:	1.3101
 Release:	3
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Convert::BER provides an object oriented interface to encoding and
 decoding data into packets using the ASN.1 Basic Encoding Rules (BER)
 
-%description -l pl
-Convert::BER udostÍpnia obiektowy interfejs kodowania i dekodowania
-danych przy wykorzystaniu ASN.1 BER (podstawowych regu≥ kodowania -
+%description -l pl.UTF-8
+Convert::BER udostƒôpnia obiektowy interfejs kodowania i dekodowania
+danych przy wykorzystaniu ASN.1 BER (podstawowych regu≈Ç kodowania -
 Basic Encoding Rules).
 
 %prep
