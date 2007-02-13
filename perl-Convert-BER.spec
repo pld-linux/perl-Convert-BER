@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	BER
 Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
-Summary(pl.UTF-8):   Moduł Perla Convert::BER - podstawowe reguły kodowania ASN.1
+Summary(pl.UTF-8):	Moduł Perla Convert::BER - podstawowe reguły kodowania ASN.1
 Name:		perl-Convert-BER
 Version:	1.3101
 Release:	3
