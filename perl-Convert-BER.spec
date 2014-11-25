@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Convert
 %define		pnam	BER
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::BER Perl module - ASN.1 Basic Encoding Rules
 Summary(pl.UTF-8):	Moduł Perla Convert::BER - podstawowe reguły kodowania ASN.1
 Name:		perl-Convert-BER
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	00fd5e5a98d4194da0e980186cba6292
+URL:		http://search.cpan.org/dist/Convert-BER/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Math-BigInteger
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
